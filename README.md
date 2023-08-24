@@ -3,10 +3,12 @@ This repository contains a C program that implements a Monty bytecode interprete
 The Monty bytecode interpreter is a program that reads and executes Monty bytecode files.
 
 WHAT THE PROGRAM DOES
+
 This C program is a Monty bytecode interpreter. It takes a file as an argument, opens the file, and reads the instructions in the file, line by line. For each line read, the interpreter executes the instructions on that line.
 
-The Monty bytecode is made up of a small number of instructions that can be used to manipulate a stack. The instructions are:
-
+The Monty bytecode is made up of a small number of instructions that can be used to manipulate a stack. 
+=====================================================================
+The instructions are:
 push: Pushes an integer onto the stack.
 pop: Pops an integer off the stack.
 swap: Swaps the top two elements on the stack.
